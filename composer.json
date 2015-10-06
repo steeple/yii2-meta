@@ -15,7 +15,10 @@
     },
     "autoload": {
         "psr-4": {
-            "steeple\\meta\\": ""
+            "steeple\\meta\\": "src"
         }
+    },
+    "extra": {
+        "bootstrap": "steeple\\meta\\Bootstrap"
     }
 }
