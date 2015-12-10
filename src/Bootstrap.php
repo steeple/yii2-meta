@@ -20,7 +20,8 @@ class Bootstrap implements BootstrapInterface
      */
     public function bootstrap($app)
     {
-        var_dump($app);
-        exit;
+        $app->set('metaData', [
+            'class' => 'steeple\meta\MetaData'  
+        ]);
     }
 }
